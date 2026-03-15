@@ -14,11 +14,23 @@ public class JumpStatemnet {
         //     System.out.println("The number is prime.");
         // }
 
+        // for (int i = 1; i <= 10; i++){
+        //     if (i % 2 == 0) {
+        //         continue;
+        //     }
+        //     System.out.println(i);
+        // }
+
+        // Brake in Nested loops
         for (int i = 1; i <= 10; i++){
-            if (i % 2 == 0) {
-                continue;
+            for (int j = 1; j <= i; j++){
+                System.out.print(" * ");
+
+                if (j >= 5) {
+                    break;
+                }
             }
-            System.out.println(i);
+            System.out.println();
         }
     }
 }
