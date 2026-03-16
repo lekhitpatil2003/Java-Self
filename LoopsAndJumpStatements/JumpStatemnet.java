@@ -27,7 +27,7 @@ public class JumpStatemnet {
                 System.out.print(" * ");
 
                 if (j >= 5) {
-                    break;
+                    continue;
                 }
             }
             System.out.println();
