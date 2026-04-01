@@ -27,6 +27,7 @@ public class MultiDimensionalArrayExample {
         //     System.out.println();
         // }
 
+        // 2nd method to initialize 3 dimensional array
         int[][] marks = new int[3][]; // rows = 3
 
         marks[0] = new int[1];
